@@ -18,7 +18,7 @@ class  array05{
             }
 
             Map<Integer, Integer> result = new HashMap<Integer, Integer>();
-            int arryNum[] = {6,3,4,5,6,3};
+            int[] arryNum = {6, 3, 4, 5, 6, 3};
             for(int i: arryNum){
                 if (result.containsKey(i)) result.put(i, result.get(i)+1);
                 else result.put(i, 1);
