@@ -10,11 +10,11 @@ class  array05{
             File file = new File("file.txt");
             Scanner scanner = new Scanner(file);
             List<Integer> array = new LinkedList<>();
-            int currentNumber;
+            int arrayNum;
 
             while (scanner.hasNextLine()) {
-                currentNumber = scanner.nextInt();
-                array.add(currentNumber);
+                arrayNum = scanner.nextInt();
+                array.add(arrayNum);
             }
 
             Map<Integer, Integer> result = new HashMap<Integer, Integer>();
