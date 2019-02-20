@@ -3,7 +3,7 @@ import java.io.FileNotFoundException;
 import java.util.*;
 
 
-class  array05{
+class  Test{
         public static void main(String[] args) throws FileNotFoundException {
 
 
