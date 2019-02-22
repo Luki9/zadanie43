@@ -18,8 +18,8 @@ class  Test{
             }
 
             Map<Integer, Integer> result = new HashMap<Integer, Integer>();
-            int[] arryNum = {6, 3, 4, 5, 6, 3};
-            for(int i: arryNum){
+
+            for(int i: array){
                 if (result.containsKey(i)) result.put(i, result.get(i)+1);
                 else result.put(i, 1);
             }
