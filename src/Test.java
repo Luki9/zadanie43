@@ -21,8 +21,9 @@ class  Test{
 
             for(int i: array){
                 if (result.containsKey(i)) result.put(i, result.get(i)+1);
+
                 else result.put(i, 1);
             }
-            for (int i: result.keySet()) System.out.println(i + ":" + result.get(i));
+            for (int i: result.keySet()) System.out.println(i + "-Licza wystąpień:" + result.get(i));
         }
     }
